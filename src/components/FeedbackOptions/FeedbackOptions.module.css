@@ -1,0 +1,29 @@
+.feedbackTitle {
+  margin: 1em 0 0.5em 0;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  color: bisque;
+}
+.feedbackList {
+  display: flex;
+  gap: 10px;
+}
+.feedbackItem {
+  display: flex;
+}
+
+.feedbackBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  border-color: bisque;
+  font-size: 15px;
+  color: wheat;
+  cursor: pointer;
+}
